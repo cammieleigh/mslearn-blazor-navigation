@@ -1,9 +1,11 @@
 namespace BlazingPizza;
 
+
 public static class SeedData
 {
     public static void Initialize(PizzaStoreContext db)
     {
+        
         var specials = new PizzaSpecial[]
         {
             new PizzaSpecial()
